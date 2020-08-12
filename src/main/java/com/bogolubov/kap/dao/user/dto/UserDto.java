@@ -1,26 +1,23 @@
-package com.bogolubov.kap.controllers.user.util;
+package com.bogolubov.kap.dao.user.dto;
 
-import com.bogolubov.kap.dao.department.dto.DepartmentDto;
 import com.bogolubov.kap.dao.department.entity.Department;
 import com.bogolubov.kap.dao.position.entity.Position;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.domain.Pageable;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserFilterContainer {
-
+public class UserDto {
+    private Long id;
     private String login;
     private String email;
+    private String password;
     private String fullName;
-    private Boolean enabled;
+    private boolean enabled;
     private Position position;
     private Department department;
-    private Pageable pageable;
-
 }
