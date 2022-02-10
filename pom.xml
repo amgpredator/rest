@@ -16,7 +16,7 @@
         <org.projectlombok.version>1.18.12</org.projectlombok.version>
         <hibernate.version>5.4.9.Final</hibernate.version>
         <mockito.version>1.10.19</mockito.version>
-        <postgresql.version>9.3-1100-jdbc41</postgresql.version>
+        <postgresql.version>42.2.25</postgresql.version>
         <junit.version>4.11</junit.version>
     </properties>
 
